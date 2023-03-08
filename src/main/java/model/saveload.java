@@ -8,10 +8,13 @@ import com.example.aufgabe_10.MyPane;
 import javafx.scene.control.Alert;
 
 public class saveload {
-    MyPane g = new MyPane();
+    MyPane g;
    String tit;
    String co;
 
+    public saveload(MyPane g) {
+        this.g = g;
+    }
 
     public String getTit() {
         return tit;

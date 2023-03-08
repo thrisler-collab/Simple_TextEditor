@@ -21,7 +21,7 @@ public class MyPane extends FlowPane {
       private RadioButton binaer;
       private  RadioButton txt;
     public MyPane(){
-        model = new saveload();
+        model = new saveload(this);
         con = new controler(this, model);
 
         init();
